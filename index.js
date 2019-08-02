@@ -12,7 +12,7 @@ const tutorials = [
 ];
 
 const titleCased = () => {
-  return tutorials.map(t => { retrun sentenceCase(t) })
+  return tutorials.map(t => { return sentenceCase(t) })
 }
 
 function sentenceCase (str) {
